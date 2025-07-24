@@ -1,11 +1,12 @@
 import React from "react";
 import { useState } from "react";
+import projects from "..projects";
 
-function ProjectCard({ project }) {
+function ProjectCard({ projects }) {
     return (
         <div className="project-card">
-            <h2>{project.title}</h2>
-            <p>{project.description}</p>
+            <h2>{projects.title}</h2>
+            <p>{projects.description}</p>
         </div>
     );
 }
