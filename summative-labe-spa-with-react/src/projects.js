@@ -12,3 +12,5 @@ const projects = [
     description: "This is the third project.",
   },
 ];
+
+export default projects;

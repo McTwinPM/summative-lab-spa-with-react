@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import projects from "..projects";
+import projects from "../projects";
 
 function ProjectCard({ projects }) {
     return (
