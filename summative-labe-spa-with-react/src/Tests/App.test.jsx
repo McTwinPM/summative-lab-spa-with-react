@@ -52,5 +52,5 @@ test("correctly filters projects based on search term", () => {
   );
 
   const projectCards = container.querySelectorAll(".project-card");
-  expect(projectCards.length).toBe(3); // All three projects contain "Project" in their title
+  expect(projectCards.length).toBe(3); 
 });
