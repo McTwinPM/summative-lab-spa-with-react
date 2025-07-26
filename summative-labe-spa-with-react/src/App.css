@@ -17,6 +17,7 @@
 
 }
 
+
 form.project-form {
   display: flex;
   flex-direction: column;
@@ -88,8 +89,10 @@ p {
   font-size: 1.2rem;
   line-height: 1.5;
   margin: 0.5rem 0;
-  /* text-align: center; */
+  text-align: center;
 }
+
+
 
 
 
